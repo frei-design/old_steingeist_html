@@ -1,0 +1,149 @@
+/* CSS Physio Mettlen Eglisau */
+
+html{}
+body{
+	font-size: 62.5%;
+	background-image: url(../css_bilder/spacer_white.png);
+	}
+	
+* {padding:0; margin: 0;}
+
+.clear{clear:both;}
+
+
+/* Layout CSS */
+#PageContainer{width:700px;margin:0px;padding:0px; height:auto; overflow:visible;}
+#Menu{display:none;}
+#Content{ padding: 0px 0px 0px 0px;}
+#Footer{ display:none;}	
+
+
+
+/* "\A " erzeugt den gewünschten Absatz */
+img:after {
+ content:"\A ("attr(alt)")";
+}
+
+
+
+body {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-align:left;
+	padding-top: 5mm;
+	margin-left: 20mm;	
+}
+
+
+* {
+	margin: 0px; 
+	padding: 0px;
+	background: none; 
+	color: #000000; 
+	float: none; 
+}
+
+
+
+/** header / footer */
+
+#printinfo {
+			font-size: 9pt;
+			font-weight: normal;
+}
+
+#printfooter {
+			padding-top: 5mm;
+			font-size: 9pt;
+			font-weight: normal;
+			line-height: 12pt;
+}
+
+
+/** kein Druck / Ausschluss */	
+#box_spalte_rechts_kurs, #first, #content_impressum, #framecontentTop, #framecontentBottom, #content_top, #content_navigation  {display: none;}
+
+
+/* CSS Document */
+
+#maincontent{
+	top: 20px;
+}
+
+
+#wrapper, #news, #wrap_inhalt, #box, #wrapper_s {
+			width: 160mm;
+			margin-top: 0px;
+}
+
+#wrapper_s {
+	margin: 0px 10px 0px 0px;
+	margin-top: 0px;
+}
+
+#box {
+	margin: 0px 10px 0px 0px;
+	padding-top: 0px;
+}
+
+#box_stephan {
+	margin: 0px 10px 0px 0px;
+	padding-top: 0px;
+}
+
+
+a {font-weight: normal; text-decoration: none; color: #000000;}
+
+h1 {
+	font-size: 18pt;
+	font-weight: normal;
+	padding-top: 30mm;
+	padding-bottom: 10mm;
+	color: #640303;
+}
+
+h2 {
+	font-size: 10pt;
+	font-weight: bold;
+	padding-top: 10mm;
+	line-height: 14pt;
+	color: #640303;
+}
+
+h3 {
+	font-size: 10pt;
+	font-weight: normal;
+	color: #640303; 
+}
+
+h4 {font-size: 10pt; 
+	font-weight: normal; 
+	line-height: 10pt;}
+
+.boxtext {
+	background: none; 
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-align:left;
+	padding-top: 0mm;
+	line-height: 13pt;	
+}
+
+.printversion {
+	background: none; 
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align:left;
+	padding-top: 0mm;
+}
+
+
+.titel_left {
+	text-align:left;
+	line-height: 45pt;
+	font-size:25px;
+	letter-spacing:2px;
+}
+
+
+

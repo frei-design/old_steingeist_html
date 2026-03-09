@@ -1,0 +1,144 @@
+		
+/** PRINT-VERSION */
+
+html {
+	height: 101%;
+	font-size: 62.5%;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	height: 100%;
+	max-height: 100%;
+	background-image: url();
+	background-repeat: no-repeat;
+	background:#630202;
+}
+
+a img { border:0px none; }
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	width: 700px;
+	height: 700px;
+	margin: 100px auto;
+	background-image: url(form_bg.png);
+	/* Rounded Corners */
+	
+	-moz-border-radius: #2674AE;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#wrap_inhalt {
+	width: 640px;
+	height: 500px;
+	padding: 50px;
+}
+
+
+
+
+
+.Text {
+	color: #000;
+	text-decoration: none;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+.boxtext {
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.boxtext09 {
+	font-size:0.9em;
+	color: #000;
+	text-decoration: none;
+}
+
+.boxtext09_dot {
+	font-size:1em;
+	color: #640303;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight: lighter;
+	font-stretch: wider;
+}
+
+.mail {
+	color: ##0078B4;
+	text-decoration: none;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.stern {
+	color: #AD112F;
+	text-decoration: none;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.mail:a {
+	color: ##0078B4;
+	text-decoration: none;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.mail:hover {
+	text-decoration: underline;
+}
+
+a {
+	color: ##0078B4;
+	text-decoration: none;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: normal;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: ##0078B4;
+	text-decoration: none;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+a:visited {
+	color: ##0078B4;
+	text-decoration: none;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.linkimpr {
+	font-size:14px;
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.linkimpr:hover {
+	font-size:14px;
+	color: #640303;
+	text-decoration: underline;
+}

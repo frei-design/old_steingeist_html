@@ -1,0 +1,420 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+}
+		
+html {
+	height: 100%;
+}
+
+
+body{
+	border: 0;
+}
+
+
+body#skulpturen  {
+	background-image: url(../images/bg_rubriken/bg_bw_skulpturen.jpg);
+	background-repeat: no-repeat;
+}
+
+body#grabsteine  {
+	background-image: url(../images/bg_rubriken/bg_bw_grabsteine.jpg);
+	background-repeat: no-repeat;
+}
+
+body#andere  {
+	background-image: url(../images/bg_rubriken/bg_bw_andere.jpg);
+	background-repeat: no-repeat;
+}
+
+body#kurse  {
+	background-image: url(../images/bg_rubriken/bg_bw_kurse.jpg);
+	background-repeat: no-repeat;
+}
+
+body#werkstatt  {
+	background-image: url(../images/bg_rubriken/bg_bw_werkstatt.jpg);
+	background-repeat: no-repeat;
+}
+
+body#stephan  {
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+body#kontakt  {
+	background-image: url(../images/bg_rubriken/bg_bw_kontakt.jpg);
+	background-repeat: no-repeat;
+}
+
+body#sitemap  {
+	background-image: url(../images/bg_rubriken/bg_bw_sitemap.jpg);
+	background-repeat: no-repeat;
+}
+
+body#impressum  {
+	background-image: url(../images/bg_rubriken/bg_bw_impressum.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+a img { border:0px none; }
+
+body_safe_2_delete{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	height: 100%; 
+	max-height: 100%; 
+	background-image: url(../images/bg_rubriken/bg_bw_kontakt.jpg);
+	background-repeat: no-repeat;
+}
+
+#framecontentTop{
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 100%;
+	height: 153px; /*Height of top frame div*/
+	overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+}
+
+.innertubeTop{
+margin: 0px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+
+#content_top{
+	height:105px;
+	width:100%;
+	top:0px;
+	border-bottom:1px solid #4F4F4F;
+	position:absolute;
+	background-image: url(../css_bilder/spacer.png);
+	text-align: center;
+	padding-left: 5px;
+		}
+		
+#content_impressum{
+	height:20px;
+	width:100%;
+	top:0px;
+	position:absolute;
+	right: 20px;
+	text-align:right;
+	font-weight: normal;
+	font-size: 1.1em;
+	margin-top: 82px;
+		}	
+		
+		
+#content_navigation{
+	margin:0px;
+	height:40px;
+	width:100%;
+	top:113px;
+	position:absolute;
+	background-image: url(../css_bilder/spacer_red.png);
+	left: 0px;
+	text-align: center;
+		}
+					
+#content_nav_inhalt{
+	margin:0px auto;
+	width:720px;
+	text-align: left;
+	height: 40px;
+		}		
+
+
+#maincontent{
+	position: absolute;
+	top: 160px; /*Set top value to HeightOfTopFrameDiv*/
+	left: 0px;
+	right: 0px;
+	bottom: 31px;
+	overflow: auto;
+}
+
+
+
+
+#framecontentBottom{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	height: 30px; /*Height of bottom frame div*/
+	overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+	background-image: url(../css_bilder/spacer_red_30_footer.png);
+}
+
+.innertubeBottom{
+	margin: 5px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+	font-size:0.8em;
+	color: #FFF;
+	text-decoration: none;
+	text-align:center;
+	font-size:0.8em;
+	color: #FFF;
+}
+
+
+* html body{ /*IE6 hack*/
+padding: 158px 0 30px 0; /*Set value to (HeightOfTopFrameDiv 0 HeightOfBottomFrameDiv 0)*/
+}
+
+* html #maincontent{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
+}
+
+
+	
+
+
+
+/* O T H E R S */
+	
+		
+/* Inhalt */		
+#wrapper {
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	padding-top: 40px;
+}	
+
+#wrapper_kontakt {
+	width: 720px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+}	
+
+
+#first {
+	height: 120px;
+	margin: 0px 0px 0px 0px;
+}
+
+#dia_slide {
+	margin: 0px 40px 0px 200px;
+}
+	
+
+
+#wrap_inhalt {
+	height: auto;
+}
+
+
+
+#box {
+	margin: 0px 100px 0px 0px;
+	padding-top: 40px;
+}
+
+#box_fullsize {
+	margin: 10px 0px 50px 0px;
+	padding-top: 0px;
+	padding-bottom: 70px;
+	z-index: 20;
+}
+
+
+#box_small {
+	margin: 0px 40px 0px 400px;
+	padding-top: 30px;
+	text-align: left;
+}
+
+#box_spalte {
+	margin: 0px 0px 0px 0px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+#box_spalte_kontakt {
+	margin: auto;
+	padding-top: 0px;
+	text-align: left;
+}
+
+#box_spalte_links {
+	margin: 0px 0px 0px 0px;
+	padding-top: 40px;
+	text-align: left;
+	float: left;
+}
+
+#box_spalte_rechts {
+	margin: 0px 5px 0px 400px;
+	padding-top: 40px;
+	text-align: left;
+}
+
+#box_spalte_rechts_stephan {
+	margin: 0px 0px 40px 20px;
+	text-align: right;
+	float: left;
+}
+
+#box_spalte_map {
+	height: 330px;
+	width: auto;
+	background-repeat: no-repeat;
+}
+
+
+
+#box_spalte_kurs {
+	margin: 0px 40px 0px 200px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+
+#box_spalte_rechts_kurs {
+	margin: 70px 40px 0px 0px;
+	padding-top: 30px;
+	text-align: right;
+	width: 240px;
+	float: right;
+}
+
+#box_stephan {
+	margin: 0px 0px 0px 0px;
+	padding-top: 50px;
+}
+
+#wrapper_s {
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+	
+	
+
+
+
+/**Textstil  */
+
+.boxtext {
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.boxtext09 {
+	font-size:0.9em;
+	color: #000;
+	text-decoration: none;
+}
+
+.boxtext09_dot {
+	font-size:1em;
+	color: #640303;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+	
+h1 {
+	color: #640303;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 1.5em;
+} 
+
+h2 {
+	color: #640303;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 1.8em;
+}
+
+h3 {
+	color: #640303;
+	text-decoration: none;
+	font-weight: normal;
+	font-size:0.9em;
+	line-height: 1.5em;
+}
+
+h4 {
+	line-height: 1.2em;
+	text-align: left;
+	text-decoration: none;
+	font-weight: normal;
+	border-bottom-style: dotted;
+	border-bottom-color: #CC0432;
+	border-bottom-width:thin;
+	font-size: 95%;
+	color:#000000;
+}
+
+h5, h6 {
+		
+}
+
+
+.linkimpr {
+	font-size:0.9em;
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.linkimpr:hover {
+	color: #640303;
+	text-decoration: underline;	
+}
+
+
+.linkpro {
+	font-size:0.9em;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: normal;
+	font-weight: bolder;
+	background-color: #640505;
+}
+
+.linkpro:hover {
+	color: #CCC;
+	text-decoration: underline;	
+}
+
+
+
+.linkimpr_signatur {
+	font-size:0.9em;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.linkimpr_signatur:hover {
+	text-decoration: underline;	
+}
+
+
+.year {
+	font-size:0.8em;
+	color: #640303;
+	text-decoration: none;
+}
+
+/** PRINT-VERSION */
+
+#printinfo, #printfooter {display: none;}
